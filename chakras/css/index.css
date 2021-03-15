@@ -1,0 +1,762 @@
+html {
+    font-family: var(--font-family);
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+/* sección del banner superior */
+
+.header-principal {
+    background-color: var(--gris-principal);
+    color: #ffffff;
+    padding: 12px 0;
+    text-align: center;
+    line-height: 21px;
+}
+
+
+/* sección de la barra de navegación */
+
+.segunda-section {
+    align-items: center;
+    background-color: #ffffff;
+    height: 70px;
+    bottom: 0px;
+    color: var(--gris-principal);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    box-shadow: 0 0 5px 0 #87878740;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.segunda-section .logo {
+    height: 45px;
+    padding-top: 5px;
+}
+
+.segunda-section .img1 {
+    height: 15px;
+    padding: 0 16px;
+    width: 20%;
+}
+
+.segunda-section .derecha {
+    font-size: 1.75rem;
+    padding: 0 16px;
+    text-align: right;
+}
+
+.segunda-section .derecha a {
+    color: var(--gris-principal);
+    font-size: 1.35rem;
+    font-weight: thin;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+/* sección del carrusel */
+
+.carrusel .carrusel-texto {
+    position: relative;
+    margin-block-end: -15rem;
+    margin-block-start: 9rem;
+    margin-inline-end: 10rem;
+    margin-inline-start: 22rem;
+}
+
+.carrusel .carrusel-texto h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.carrusel .carrusel-texto button {
+    background-color: #56cfe1;
+    border-color: #56cfe1;
+    color: #ffffff;
+    font-size: 0.75rem;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.carrusel img {
+    height: 405px;
+}
+
+
+/* sección de la leyenda anterior a imagen de poster*/
+
+.texto {
+    font-size: 1.55rem;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.texto span {
+    color: #878787;
+    font-size: 1rem;
+}
+
+
+/* sección de la imagen de poster*/
+
+.poster {
+    width: 95%;
+}
+
+.poster .productos {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 1100px;
+    justify-content: flex-start;
+}
+
+.productPoster {
+    display: block;
+    height: 350px;
+}
+
+.imagenesPosters {
+    display: block;
+}
+
+.imagenesPosters a {
+    text-decoration: none;
+}
+
+.imagenesPosters img {
+    height: 250px;
+}
+
+.imagenesPosters span {
+    color: #ffffff;
+}
+
+.imagenesPosters .sale {
+    background-color: #fe9931;
+    font-size: 0.75rem;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 4%;
+}
+
+.imagenesPosters .sale1 {
+    background-color: #56cfe1;
+    font-size: 0.75rem;
+    margin-block-end: 5px;
+    margin-block-start: 40px;
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 4%;
+}
+
+.imagenesPosters .eye {
+    background-color: #ffffff;
+    color: var(--gris-principal);
+    height: 29px;
+    margin-block-end: 30px;
+    margin-block-start: 10px;
+    margin-inline-end: 70px;
+    margin-inline-start: 200px;
+    position: absolute;
+    border-radius: 50%;
+    width: 5%;
+}
+
+.imagenesPosters .eye a {
+    color: var(--gris-principal);
+    height: 20px;
+    text-decoration: none;
+}
+
+.imagenesPosters .eye a i {
+    font-size: 0.95rem;
+    height: 15px;
+    margin-block-end: 20px;
+    margin-block-start: 7px;
+    margin-inline-end: 9px;
+    margin-inline-start: 9px;
+}
+
+.imagenesPosters .button {
+    background-color: #56cfe1;
+    font-size: 0.95rem;
+    font-weight: bold;
+    height: 30px;
+    margin-top: -10px;
+    padding-top: 7px;
+    position: relative;
+    text-align: center;
+}
+
+
+/* sección de la leyenda posterior a imagen de poster*/
+
+.textoPoster {
+    padding: 15px 0 10px 5px;
+}
+
+.textoPoster div {
+    margin-bottom: 3px;
+}
+
+.textoPoster h3 {
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+
+.textoPoster .scoring i {
+    color: #EAAA00;
+}
+
+.textoPoster .price {
+    font-size: 1rem;
+    font-weight: thin;
+}
+
+.textoPoster #tachado {
+    text-decoration: line-through;
+}
+
+.textoPoster #promo {
+    color: red;
+    font-weight: bolder;
+}
+
+
+/*estilos para el boton de cargar mas productos*/
+
+.loadmore {
+    background-color: #ffffff;
+    border: #56cfe1 1px solid;
+    color: #56cfe1;
+    font-size: 0.75rem;
+    margin-left: 30%;
+    margin-bottom: 40px;
+    padding: 15px 40px;
+}
+
+
+/* estilos para la seccion trending products*/
+
+.trending {
+    text-align: center;
+    margin: 20px 4%;
+    width: 90%;
+}
+
+.trending h3 {
+    font-size: 1.50rem;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.trending .categoriaTrending {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 8%;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.trending .categoriaTrending a {
+    color: var(--gris-claro);
+    text-decoration: none;
+    padding: 15px;
+}
+
+.trending .categoriaTrending #selected {
+    border: var(--gris-principal) 1px solid;
+    border-radius: 25px;
+    color: var(--gris-principal);
+}
+
+
+/*parent este es el que lleva el flex*/
+
+.trending .camisasFotos {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 1000px;
+    justify-content: space-evenly;
+    margin-left: 3px;
+}
+
+
+/* estilos de la seccion*/
+
+.trending .camisasFotos .productTshirt {
+    display: block;
+    height: 310px;
+    /* border: red 2px solid; */
+}
+
+
+/*estilos del div*/
+
+.trending .camisasFotos .productTshirt .imagenesTshirt {
+    height: 270px;
+}
+
+.trending .camisasFotos .productTshirt #acomodar {
+    width: 83%;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt a {
+    text-decoration: none;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt img {
+    height: 215px;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt span {
+    color: #ffffff;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tSale {
+    background-color: #fe9931;
+    font-size: 0.75rem;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    margin-inline-end: 10;
+    margin-inline-start: 10px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 4%;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tSale1 {
+    background-color: #56cfe1;
+    font-size: 0.75rem;
+    margin-block-end: 35px;
+    margin-block-start: 35px;
+    margin-inline-end: 10;
+    margin-inline-start: 10px;
+    padding: 5px 10px;
+    position: absolute;
+    width: 4%;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tEye {
+    background-color: #ffffff;
+    color: var(--gris-principal);
+    height: 29px;
+    margin-block-end: 30px;
+    margin-block-start: 10px;
+    margin-inline-end: 170px;
+    margin-inline-start: 170px;
+    position: absolute;
+    border-radius: 50%;
+    width: 5%;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tEye a {
+    color: var(--gris-principal);
+    height: 20px;
+    text-decoration: none;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tEye a i {
+    font-size: 0.95rem;
+    height: 15px;
+    margin-block-end: 20px;
+    margin-block-start: 7px;
+    margin-inline-end: 9px;
+    margin-inline-start: 9px;
+}
+
+.trending .camisasFotos .productTshirt .imagenesTshirt .tButton {
+    background-color: #56cfe1;
+    font-size: 0.95rem;
+    font-weight: bold;
+    height: 20px;
+    margin-top: -3px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+/* sección de la leyenda posterior a imagen de t-shirt*/
+
+.textoTshirt {
+    text-align: left;
+    width: 95%;
+}
+
+.textoTshirt h3 {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.textoTshirt .tPrice {
+    font-size: 0.85rem;
+    font-weight: thin;
+    margin-top: -20px;
+}
+
+.loadmore1 {
+    background-color: #ffffff;
+    border: #56cfe1 1px solid;
+    color: #56cfe1;
+    font-size: 0.75rem;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+}
+
+
+/*seccion del banner*/
+
+.banner {
+    background-color: #212322;
+    color: #ffffff;
+    height: 220px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner h4 {
+    font-size: 1.25rem;
+}
+
+.banner h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.banner h2 span {
+    color: #56cfe1;
+}
+
+.banner .btn-banner {
+    background: none;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+    font-size: 0.68rem;
+    padding: 15px 35px;
+}
+
+
+/*estilos para la seccion wall*/
+
+.trending #wall-h3 {
+    margin-bottom: 15px;
+}
+
+.trending p {
+    font-size: 0.87rem;
+    color: var(--gris-claro);
+    margin-bottom: 40px;
+}
+
+
+/*banner 2*/
+
+.banner2 {
+    background-color: #ff61c3;
+    color: #ffffff;
+    height: 220px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.banner2 h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.banner2 p {
+    font-size: 1.25rem;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+
+/*seccion coffee mug*/
+
+.trending #tachado {
+    text-decoration: line-through;
+}
+
+.trending #promo {
+    color: red;
+    font-weight: bolder;
+}
+
+
+/*SECCION DEL BLOG*/
+
+.blog {
+    background-color: #f7f7f7;
+}
+
+.blog h4 {
+    font-size: 1.50rem;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.blog .blogWhole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blog .blogPartes {
+    margin: 2%;
+    width: 45%;
+}
+
+.blog .blogPartes img {
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.blog .blogPartes h5 {
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.blog .blogPartes p {
+    font-size: 0.94rem;
+    margin-bottom: 15px;
+}
+
+.loadmore2 {
+    background-color: #f7f7f7;
+    border: #56cfe1 1px solid;
+    color: #56cfe1;
+    font-size: 0.75rem;
+    margin-top: 15px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+}
+
+
+/*seccion del banner 3*/
+
+.banner3 {
+    background-color: #212322;
+    color: #ffffff;
+    height: 180px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner3 h2 {
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+}
+
+.banner3 p {
+    border-bottom: #f7f7f7 1px solid;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    padding-bottom: 15px;
+    width: 50%;
+}
+
+.banner3 .btn-banner1 {
+    background: none;
+    border: #56cfe1 1px solid;
+    color: #56CFE1;
+    font-size: 0.68rem;
+    padding: 15px 35px;
+}
+
+
+/*Elephant seccion*/
+
+.elefante {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.productElefante {
+    display: block;
+    height: 200px;
+}
+
+.imagenesElefante {
+    height: 210px;
+}
+
+.imagenesElefante img {
+    height: 200px;
+}
+
+.imagenesElefante span {
+    background-color: #ffffff;
+    color: var(--gris-principal);
+    font-size: 0.95rem;
+    font-weight: bold;
+    line-height: 20px;
+    margin-block-end: 120px;
+    margin-block-start: 120px;
+    margin-inline-end: -170px;
+    margin-inline-start: -170px;
+    padding: 10px 25px;
+    position: absolute;
+    text-align: center;
+    width: 90px;
+}
+
+
+/*seccion de las cualidades de servicio*/
+
+.divCualidad {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cualidad {
+    display: flex;
+    height: 150px;
+    margin-top: 30px;
+    width: 20%;
+}
+
+.cualidad .icon {
+    font-size: 2rem;
+    color: var(--gris-claro);
+}
+
+.cualidad .cual-texto {
+    margin: 5px;
+}
+
+.cualidad .cual-texto h3 {
+    font-size: 1.10rem;
+    margin-bottom: 5px;
+}
+
+.cualidad .cual-texto p {
+    color: var(--gris-claro);
+    font-size: 1rem;
+}
+
+
+/*seccion del banner 4*/
+
+.banner4 {
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 420px;
+    text-align: left;
+    padding: 40px 30px;
+}
+
+.banner4 .cual-texto {
+    height: 100px;
+    margin-bottom: 50px;
+    width: 45%;
+}
+
+.banner4 h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.banner4 p {
+    color: var(--gris-claro);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.banner4 .div-input {
+    display: block;
+}
+
+.banner4 .input {
+    background-color: #1f1f1f;
+    border: #ffffff 0.1px solid;
+    border-radius: 55px;
+    padding: 15px 10px;
+    width: 95%;
+}
+
+.banner4 .btn-banner1 {
+    background: #56cfe1;
+    border: none;
+    border-radius: 55px;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-block-end: -35px;
+    margin-block-start: -35px;
+    margin-inline-end: 230px;
+    margin-inline-start: 230px;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #1f1f1ff2;
+    color: var(--gris-claro);
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer span {
+    color: #56cfe1;
+}
+
+
+/*Media querry 1024px*/
+
+@media only screen and (min-width:1024px) {
+    .carrusel img {
+        height: 539px;
+    }
+    .carrusel .carrusel-texto {
+        position: absolute;
+        margin-block-end: 15rem;
+        margin-block-start: 15rem;
+        margin-inline-end: 27rem;
+        margin-inline-start: 27rem;
+    }
+    .banner4 {
+        height: 220px;
+    }
+    .banner4 .cual-texto {
+        height: 50px;
+        margin-bottom: 50px;
+        width: 20%;
+    }
+}
